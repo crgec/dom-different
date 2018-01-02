@@ -1,0 +1,28 @@
+{
+  "name": "funcss",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "canvas-prebuilt": "^1.6.5-prerelease.1",
+    "chalk": "^2.3.0",
+    "node-resemble-js": "^0.2.0",
+    "puppeteer": "^0.13.0",
+    "resemblejs": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/puppeteer": "^0.13.9",
+    "eslint": "4.9.0",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.4.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  }
+}
